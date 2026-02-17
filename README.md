@@ -13,44 +13,46 @@ This repository contains my solutions for a 60-day Python practice challenge, wh
 
 
 
-🎯 Purpose of This Challenge
+## 🎯 Purpose of This Challenge
+- Improve problem-solving skills.
+- Strengthen Python fundamentals.
+- Build consistency in daily coding.
+- Prepare for technical interviews.
+- Develop logical thinking ability.
 
-   Build strong Python fundamentals
-   Improve logical reasoning
-   Develop daily coding discipline
-   Prepare for technical interviews
    
-🛠 Tech Stack
-   Python 3.x
+## 🛠 Tech Stack
+- Python 3.x
 
-📘 Concepts Practiced (By Day)
+
+## 📘 Concepts Practiced (By Day)
+
 Day 1 – User Profile Validation System
-        Input handling
-        String checks
-        Conditional validation
-        Output formatting
+- Handles user input and validates strings.
+- Uses conditional statements for checking correctness.
+- Applies simple logic to verify user details.
+- Displays output in a structured format.
 
 Day 2 – Smart ID & Credential Validator
-       Using lists
-       for loops
-       Rule-based conditions
-       Error handling
+- Stores credentials using lists.
+- Uses for-loops to iterate data.
+- Applies rule-based validation conditions.
+- Handles errors logically.
 
 Day 3 – Student Performance Analyzer
-        List-based mark storage
-        Loop processing
-        Grade logic
-        Bonus using name length
-        Special roll number condition
+- Stores student marks in lists.
+- Processes marks using loops.
+- Assigns grades with conditional logic.
+- Applies bonus rules using name length and roll number.
 
 Day 4 – Cyber Activity Risk Analyzer
-        Log storage in lists
-        Risk categorization
-        Loop-based filtering
-        Personalization using register number
+- Stores activity logs in lists.
+- Analyzes data using loops.
+- Categorizes risks as Low, Medium, or High.
+- Applies personalization using register number logic.
 
 Day 5 – Emergency Resource Dispatch Analyzer
-        Request classification
-        List-based storage
-        Counting valid entries
-        Personalized filtering with PLI
+- Categorizes resource requests using lists.
+- Processes each request with for-loops.
+- Counts valid and invalid requests.
+- Applies personalized filtering using PLI (L % 3).
