@@ -2,8 +2,8 @@ n= int(input("Enter the number of requests"))
 requests=[]
 for i in range (n):
     x=int(input("Enter the number"))
-    requests=requests+[x]
-invalid=0
+    requests.append(x)
+
 valid = 0
 count_l=0
 count_m=0
@@ -14,7 +14,7 @@ moderate_demand=[]
 high_demand=[]
 invalid_requests=[]
 L=input("enter your name with out spaces")
-print("Taken L is ",L)
+print("Taken L is : ",L)
 pli=len(L)%3
 print("pli will be ",pli)
 print("Total requests are",n)
@@ -22,20 +22,20 @@ for i in range(n):
     if requests[i]<0:
 
         count_i=count_i+1
-        invalid_requests=invalid_requests+[requests[i]]
+        invalid_requests.append(requests[i])
     elif requests[i]==0:
 
         valid = valid+1
     elif requests[i]>=1 and requests[i]<=20:
-        low_demand=low_demand+[requests[i]]
+        low_demand.append(requests[i])
         valid = valid+1
         count_l=count_l+1
     elif requests[i]>=21 and requests[i]<=50:
-        moderate_demand=moderate_demand+[requests[i]]
+        moderate_demand.append(requests[i])
         valid = valid+1
         count_m=count_m+1
     else:
-        high_demand=high_demand+[requests[i]]
+        high_demand.append(requests[i])
         valid=valid+1
         count_h=count_h+1
 
@@ -64,6 +64,8 @@ print("low_demand->",low_demand)
 print("moderate_demand->",moderate_demand)
 print("high_demand ->",high_demand)
 print("invalid_requests ->",invalid_requests)
+
+
 
 
 
