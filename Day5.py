@@ -13,9 +13,13 @@ low_demand=[]
 moderate_demand=[]
 high_demand=[]
 invalid_requests=[]
-L=input("enter your name with out spaces")
-print("Taken L is : ",L)
-pli=len(L)%3
+name=input("enter your name :")
+print("Taken L is : ",name)
+L=0
+for i in name:
+  if i!=" ":
+        L=L+1
+pli=L%3
 print("pli will be ",pli)
 print("Total requests are",n)
 for i in range(n):
@@ -64,6 +68,7 @@ print("low_demand->",low_demand)
 print("moderate_demand->",moderate_demand)
 print("high_demand ->",high_demand)
 print("invalid_requests ->",invalid_requests)
+
 
 
 
