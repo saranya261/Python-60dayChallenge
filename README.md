@@ -9,6 +9,7 @@ This repository contains my solutions for a 60-day Python practice challenge, wh
 | 3 | Student Performance Analyzer | ✅ Done |
 | 4 | Cyber Activity Risk Analyzer | ✅ Done |
 | 5 | Emergency Resource Dispatch Analyzer | ✅ Done |
+| 6 | Smart Transaction Risk Detector | ✅ Done |
 
 
 
@@ -56,3 +57,15 @@ Day 5 – Emergency Resource Dispatch Analyzer
 - Processes each request with for-loops.
 - Counts valid and invalid requests.
 - Applies personalized filtering using PLI (L % 3).
+
+Day 6 – Smart Transaction Risk Detector
+- Collected and stored transaction data using lists and loops
+- Categorized transactions using dictionaries and conditional logic
+- Applied list comprehension to calculate transaction totals 
+- Implemented pattern detection and personalized risk calculation logic
+
+
+
+
+
+  
