@@ -10,6 +10,7 @@ This repository contains my solutions for a 60-day Python practice challenge, wh
 | 4 | Cyber Activity Risk Analyzer | ✅ Done |
 | 5 | Emergency Resource Dispatch Analyzer | ✅ Done |
 | 6 | Smart Transaction Risk Detector | ✅ Done |
+| 6.1 | Multi-Dimensional Academic Intelligence System | ✅ Done |
 
 
 
@@ -64,7 +65,11 @@ Day 6 – Smart Transaction Risk Detector
 - Applied list comprehension to calculate transaction totals 
 - Implemented pattern detection and personalized risk calculation logic
 
-
+Day 6.1 – Multi-Dimensional Academic Intelligence System
+- Generated and stored student data using random, lists, tuples, dictionaries, and sets
+- Converted data into Pandas DataFrame and performed analysis using NumPy
+- Classified students into categories based on marks and attendance
+- Calculated performance index and derived final system insight (Stable, Moderate, Critical)
 
 
 
