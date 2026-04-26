@@ -12,6 +12,7 @@ This repository contains my solutions for a 60-day Python practice challenge, wh
 | 6 | Smart Transaction Risk Detector | ✅ Done |
 | 8 | Multi-Dimensional Academic Intelligence System | ✅ Done |
 | 9 | Smart Inventory Mutation Tracker | ✅ Done |
+| 10 | Academic Data Drift & Copy Behavior Analyzer | ✅ Done |
 
 
 
@@ -79,6 +80,15 @@ Day 9 – Smart Inventory Mutation Tracker
 - Used loops and conditions to update and track changes
 - Compared original and modified data to detect differences
 - Understood real-world issue of shared references in shallow copy
+  
+ Day 10 – Academic Data Drift & Copy Behavior Analyzer
+- Generated student data using random values
+- Stored data using list of dictionaries with nested structure
+- Created shallow copy and deep copy to compare behavior
+- Applied mutation logic based on roll number condition
+- Used NumPy for mean, median, and standard deviation
+- Applied normalization to marks
+- Classified results as Stable, Minor Drift, Critical Drift, or Copy Failure
 
 
 
